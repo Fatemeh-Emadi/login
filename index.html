@@ -1,0 +1,41 @@
+<html>
+    <head>
+     <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div id="div1">
+           <button id="submit" onclick="submit()" >submit</button>
+       </div>
+        <div id="main">
+            <div>
+            <span ><h3 style="margin-left: 175px;">submit</h3></span>
+            <span style="margin-left: 5px;"><input type="checkbox" id="dark" onclick="darkMode()" name="fav_language">dark mode </span>
+        </div>
+        <form>
+        <h5 style="margin-left: 5px;">Name</h5>
+        <input type="text" placeholder="Enter Name" style="margin-left: 5px; width: 390px;height: 30px;">
+        <h5 style="margin-left: 5px;">Email</h5>
+        <input type="email" placeholder="Enter Email" style="margin-left: 5px; width: 390px; height: 30px;" >
+        <p style="margin-left: 105px;">Your email won't show to the users</p>
+        <input type="password" placeholder="password" style="margin-left: 5px; width: 390px; height: 30px;">
+        <div>
+        <div style="margin-left: 5px;"><input type="radio"  name="fav_language"><span>single</span></div>
+       <div style="margin-left: 5px;"> <input type="radio"  name="fav_language" id="married_btn" onclick="married()"><span>married</span>
+        <p id="name2">Husband/Wife name</p>
+        <input id="inp" type="text">
+    </div>
+       <div style="margin-left: 5px;"> <input type="checkbox" id="check_child" onclick="check()"  ><span>children</span></div>
+       <button id="plus" type="button"    onclick="add_input()" >+</button>
+       <button id="mines" type="button"    onclick="delete_child()" >-</button>
+       <ul id="child_list"></ul>
+       <div style="margin-left: 100px; margin-top: 30px;"><button id="btn">submit</button></div>
+    </div>
+
+
+
+
+        </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
